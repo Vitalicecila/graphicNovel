@@ -12,6 +12,11 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+#postest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 iframe {
 margin-top:4%;
   border: none;
