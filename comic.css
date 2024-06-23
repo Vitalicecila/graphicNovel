@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 html, body {
   margin:0;
   padding:0;
@@ -30,7 +32,7 @@ margin-top:4%;
   transform: translate(-50%, -50%);
   width: 50%;
   padding: 10%;
-  background: red;
+  background: rgb(0, 0, 0);
   border-radius: 10px;
   box-shadow: 0px 2px 5px -5px rgba(0,0,0,0.1);
   z-index: 1000;
@@ -43,7 +45,7 @@ display: none;
 .comic {
   display:flex;
   flex-wrap:wrap;
-  font-family:'Comic Sans', cursive;
+  font-family:'Comic Sans' 'Chalkboard SE', 'Comic Neue', cursive;
   font-size: 78%;
   padding:1vmin;
 }
@@ -57,8 +59,13 @@ h2{
   margin-top: -1%;
 }
 
-
-
+#done {
+  margin-bottom: 5%;
+  text-align: center;
+}
+#done button{
+  cursor: pointer;
+}
 .panel {
   background-color:#fff;
   border:solid 2px #000;
@@ -91,7 +98,7 @@ h2{
   right:-6px;
 
 }
-
+/*pointing left down*/
 .speech {
   background-color:#fff;
   border:solid 2px #000;
@@ -127,6 +134,7 @@ h2{
   transform:skew(-15deg);
   width:0;
 }
+/*pointing right down*/
 .speech1 {
   background-color:#fff;
   border:solid 2px #000;
@@ -161,6 +169,41 @@ h2{
   position:absolute;
   transform:skew(50deg);
   width:0;
+}
+/*pointing upwards*/
+.speech3 {
+  background-color:#fff;
+  border:solid 2px #000;
+  border-radius:12px;
+  display:inline-block;
+  margin:.5em;
+  padding:.5em 1em;
+  position:relative;
+}
+.speech3:before {
+  border: solid 12px transparent;
+  border-right: solid 12px #000;
+  border-bottom: solid 12px #000;
+  top: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(15deg);
+  width: 0;
+}
+
+.speech3:after {
+  border: solid 10px transparent;
+  border-right: solid 10px #fff;
+  border-bottom: solid 10px #fff;
+  top: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(15deg);
+  width: 0;
 }
 
 .panel:nth-child(1) {
@@ -237,7 +280,7 @@ h2{
   padding:.5em 1em;
 }
 .panel:nth-child(11) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/11.png");
   background-size: cover;
 }
@@ -252,12 +295,12 @@ h2{
   padding:.5em 1em;
 }
 .panel:nth-child(12) {
-  flex-basis: 350px;
+  flex-basis: 450px;
   background-image: url("finalImages/12.png");
   background-size: cover;
 }
 .panel:nth-child(13) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/13.png");
   background-size: cover;
 }
@@ -282,7 +325,7 @@ h2{
   padding:.5em 1em;
 }
 .panel:nth-child(15) {
-  flex-basis: 250px;
+  flex-basis: 400px;
   background-image: url("finalImages/15.png");
   background-size: cover;
 }
@@ -307,7 +350,7 @@ h2{
   background-size: cover;
 }
 .panel:nth-child(20) {
-  flex-basis: 250px;
+  flex-basis: 450px;
   background-image: url("finalImages/20.png");
   background-size: cover;
 }
@@ -332,7 +375,7 @@ h2{
   background-size: cover;
 }
 .panel:nth-child(24) {
-  flex-basis: 250px;
+  flex-basis: 450px;
   background-image: url("finalImages/24.png");
   background-size: cover;
 }
@@ -372,7 +415,7 @@ h2{
 }
 
 .panel:nth-child(27) {
-  flex-basis: 250px;
+  flex-basis: 300px;
   background-image: url("finalImages/27.png");
   background-size: cover;
 }
@@ -404,7 +447,7 @@ h2{
 }
 
 .panel:nth-child(29) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/29.png");
   background-size: cover;
 }
@@ -420,13 +463,13 @@ h2{
 }
 
 .panel:nth-child(30) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/30.png");
   background-size: cover;
 }
 .panel:nth-child(30) .speech {
   border-radius:15px;
-  margin: 7em 2em;
+  margin: 11em 2em;
   padding:.5em 1em;
 }
 .panel:nth-child(30) .speech1 {
@@ -453,7 +496,7 @@ h2{
   background-image: url("finalImages/32.png");
   background-size: cover;
 }
-.panel:nth-child(32) .speech {
+.panel:nth-child(32) .speech3 {
   border-radius:15px;
   margin: 20em 2em;
   padding:.5em 1em;
@@ -485,7 +528,7 @@ h2{
 }
 
 .panel:nth-child(35) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/35.png");
   background-size: cover;
 }
@@ -585,7 +628,7 @@ h2{
 
   
 .panel:nth-child(44) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/44.png");
   background-size: cover;
 }
@@ -602,18 +645,18 @@ h2{
 }
 
 .panel:nth-child(47) {
-  flex-basis: 250px;
+  flex-basis: 300px;
   background-image: url("finalImages/47.png");
   background-size: cover;
 }
 
 .panel:nth-child(48) {
-  flex-basis: 250px;
+  flex-basis:250px;
   background-image: url("finalImages/48.png");
   background-size: cover;
 }
 .panel:nth-child(49) {
-  flex-basis: 250px;
+  flex-basis: 350px;
   background-image: url("finalImages/49.png");
   background-size: cover;
 }
