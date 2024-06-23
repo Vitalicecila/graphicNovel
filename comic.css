@@ -46,6 +46,17 @@ display: none;
   font-size: 78%;
   padding:1vmin;
 }
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  margin-top: 3%;
+}
+h2{
+  margin-top: -1%;
+}
+
+
 
 .panel {
   background-color:#fff;
