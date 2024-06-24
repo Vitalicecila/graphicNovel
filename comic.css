@@ -305,7 +305,7 @@ h2{
   padding:.5em 1em;
 }
 .panel:nth-child(11) {
-  flex-basis: 350px;
+  flex-basis: 300px;
   background-image: url("finalImages/11.png");
   background-size: cover;
 }
@@ -320,7 +320,7 @@ h2{
   padding:.5em 1em;
 }
 .panel:nth-child(12) {
-  flex-basis: 450px;
+  flex-basis: 350px;
   background-image: url("finalImages/12.png");
   background-size: cover;
 }
