@@ -27,9 +27,7 @@ html, body {
   align-items: center;
 }
 iframe {
-margin-top:4%;
-  border: none;
-  width: 150%;
+  width: 100%;
 }
 
 .popup {
