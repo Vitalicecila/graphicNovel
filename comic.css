@@ -840,8 +840,11 @@ h2{
 .panel:nth-child(44) {
   flex-basis: 450px;
 }
+   .panel:nth-child(47) {
+  flex-basis: 450px;
+}
   .panel:nth-child(48) {
-  flex-basis: 300px;
+  flex-basis: 500px;
 }
   .panel:nth-child(40) {
   flex-basis: 300px;
