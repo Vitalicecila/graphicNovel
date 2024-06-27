@@ -762,7 +762,13 @@ h2{
     flex-basis: 300px;
 }
    .panel:nth-child(16) {
-    flex-basis: 300px;
+    flex-basis: 350px;
+}
+  .panel:nth-child(15) {
+    flex-basis: 350px;
+}
+  .panel:nth-child(33) {
+    flex-basis: 350px;
 }
    .panel:nth-child(20) {
     flex-basis: 400px;
@@ -817,6 +823,9 @@ h2{
   margin: 18em 1em;
   padding:.5em 1em;
 }
+  .panel:nth-child(36) {
+    flex-basis: 350px;
+}
    .panel:nth-child(36) .speech {
   border-radius:15px;
   margin: 7em 1em;
@@ -826,13 +835,19 @@ h2{
   margin: 12em 1em;
 }
 #alice2{
-   margin: -16em 26em;
+   margin: -16em 22em;
 }
 .panel:nth-child(44) {
   flex-basis: 450px;
 }
   .panel:nth-child(48) {
   flex-basis: 300px;
+}
+  .panel:nth-child(40) {
+  flex-basis: 300px;
+}
+   .panel:nth-child(41) {
+  flex-basis: 350px;
 }
 }
 
