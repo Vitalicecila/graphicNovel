@@ -642,7 +642,7 @@ h2{
 }
 #oldman{
   border-radius:15px;
-  margin: 11em 9em;
+  margin: 11em -0em;
   padding:.5em 1em;
 }
 #alice2{
@@ -739,9 +739,38 @@ h2{
   margin-left: 5%;
   margin-right: 5%;
     font-size: 85%;
-
+  }
+  .panel{
+    height: 450px;
   }
   .panel:nth-child(1) {
+    flex-basis: 450px;
+}
+   .panel:nth-child(3) {
+    flex-basis: 350px;
+}
+   .panel:nth-child(4) {
+    flex-basis: 400px;
+}
+   .panel:nth-child(5) {
+    flex-basis: 300px;
+}
+  .panel:nth-child(6) {
+    flex-basis: 350px;
+}
+  .panel:nth-child(7) {
+    flex-basis: 300px;
+}
+   .panel:nth-child(16) {
+    flex-basis: 300px;
+}
+   .panel:nth-child(20) {
+    flex-basis: 400px;
+}
+   .panel:nth-child(22) {
+    flex-basis: 350px;
+}
+  .panel:nth-child(37) {
     flex-basis: 450px;
 }
   .panel:nth-child(9) .speech1 {
@@ -767,11 +796,21 @@ h2{
   margin:1em 9em;
   padding:.5em 1em;
 }
+   .panel:nth-child(26)  {
+  flex-basis: 450px;
+   }
+   .panel:nth-child(28)  {
+  flex-basis: 450px;
+   }
+
   #first{
     margin: 3em;
   }
   #second{
     margin:-1em 16em -1em 1em;
+  }
+  #fourth {
+    margin:3em 16em -1em 1em;
   }
    .panel:nth-child(32) .speech3 {
   border-radius:15px;
@@ -784,19 +823,73 @@ h2{
   padding:.5em 1em;
 }
 #oldman{
-  margin: 17em 4em;
+  margin: 12em 1em;
 }
 #alice2{
-   margin: -23em 30em;
+   margin: -16em 26em;
 }
 .panel:nth-child(44) {
   flex-basis: 450px;
 }
   .panel:nth-child(48) {
-  flex-basis: 500px;
+  flex-basis: 300px;
 }
 }
 
+@media only screen and (min-width: 1620px){
+   .panel:nth-child(12) {
+  flex-basis: 400px;
+}
+  .panel:nth-child(15) {
+  flex-basis: 450px;
+}
+  .panel:nth-child(13) .speech {
+ margin: -2em 20em 0em 3em;
+}
+    .panel:nth-child(16) {
+    flex-basis: 450px;
+}
+     .panel:nth-child(17) {
+    flex-basis: 450px;
+}
+    .panel:nth-child(28) {
+    flex-basis: 410px;
+}
+
+     .panel:nth-child(28) {
+    flex-basis: 410px;
+}
+   .panel:nth-child(32) {
+    flex-basis: 420px;
+}
+    .panel:nth-child(34) {
+    flex-basis: 350px;
+}
+     .panel:nth-child(33) {
+    flex-basis: 350px;
+}
+  .panel:nth-child(36) {
+    flex-basis: 400px;
+}
+    .panel:nth-child(45) {
+    flex-basis: 450px;
+}
+
+    .panel:nth-child(46) {
+    flex-basis: 300px;
+}
+   .panel:nth-child(47) {
+    flex-basis: 400px;
+}
+     .panel:nth-child(48) {
+    flex-basis: 450px;
+}
+
+
+
+
+  
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1820px) {
