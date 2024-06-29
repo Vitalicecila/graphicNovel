@@ -859,9 +859,6 @@ h2{
   .panel:nth-child(15) {
   flex-basis: 450px;
 }
-  .panel:nth-child(13) .speech {
- margin: -2em 20em 0em 3em;
-}
     .panel:nth-child(16) {
     flex-basis: 450px;
 }
